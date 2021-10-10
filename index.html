@@ -4,9 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Paper Scissors</title>
 </head>
 <body>
-    <script src="script.js"></script>
+    <div class="container">
+        <div class="header">
+            <h1>Rock / Paper / Scissors</h1>
+        </div>
+
+        <div class="subheader">
+            Welcome to Rock Paper Scissors!  Select your choice below
+        </div>
+
+
+
+        <div class="selectors">
+            <div data-key="rock" class="button">
+                <img src="images/rock.png">
+                
+            </div>
+            <div data-key="paper" class="button">
+                <img src="images/toilet-paper.png">
+            </div>
+            <div data-key="scissors" class="button">
+                <img src="images/scissors.png">
+            </div>
+        </div>
+
+        <div class="subheader">
+            Best of 5 rounds - Your score is tracked below
+        </div>
+
+        <div class="scoreboard">
+            <div data-key= "r1" class="card"> Round 1</div>
+            <div data-key= "r2" class="card"> Round 2</div>
+            <div data-key= "r3" class="card"> Round 3</div>
+            <div data-key= "r4" class="card"> Round 4</div>
+            <div data-key= "r5" class="card"> Round 5</div>
+        </div>
+
+
+        <div class="results">
+            
+        </div>
+
+        <div class="controls">
+            <div class="reset">Reset</div>
+        </div>
+
+        <div class="footer">
+            ~ Created by Shaan H. 2021 ~
+       </div>
+      
+
+
+
+    </div>
+    
 </body>
 </html>
